@@ -1,0 +1,30 @@
+h1 {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    /* text-indent: 20px; */
+    width: 45px;
+    text-overflow: ellipsis;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+    line-height: 20px;
+    text-align: center;
+}
+.lorem{
+    border: 2px solid red;
+    width: 145px;
+    word-break: break-all;
+    /* text-overflow: clip;
+    overflow: hidden; */
+    
+}
