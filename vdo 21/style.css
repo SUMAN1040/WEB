@@ -1,0 +1,25 @@
+/* Browser style sheet is known as user agent style sheet */
+/* This specificity of the selector is 1 */
+h1 {
+    color: aqua;
+}
+
+/* This specificity of the selector is 10 */
+.yellow {
+    color: yellow;
+}
+
+/* This specificity of the selector is 10 */
+.cred {
+    color: red;
+}
+
+/* This specificity of the selector is 10 */
+.cpurple {
+    color: purple;
+}
+
+/* This is an example of attribute selector. The specificity of this selector is 10 */
+[data-x=a] {
+    color: maroon;
+}
