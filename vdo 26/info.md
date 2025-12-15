@@ -1,0 +1,1 @@
+The css box model defines how elements are rendered and how their dimensions are calculated.It describes the structure of an element as a rectangular box that has content, padding, a border, and a margine;
