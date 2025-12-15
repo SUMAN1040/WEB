@@ -1,0 +1,17 @@
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    padding:45px;
+    margin: 34px;
+    width: 344px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    /* if i comment this display box property then it see the box vanished */
+    /* display: none; */
+    /* When i set visibility property to hidden then it see the box vanished but space must be same take which taken this */
+    /* visibility: hidden; */
+}
