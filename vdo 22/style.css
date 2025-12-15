@@ -1,0 +1,51 @@
+.box {
+    border: 2px solid black;
+    /* width: 1920px; */
+    width: 80vw;
+    margin: auto;
+    height: 10vh;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid black;
+    /* width: 1920px; */
+    width: 80vw;
+    margin: 23px auto;
+    /* height: 80vh; */
+    min-height: 80vh;
+    font-size: 18px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.container>div {
+    font-size: 2em;
+    width: 50%;
+    border: 2px solid red;
+}
+
+.container>div>div {
+    border: 2px solid green;
+    width: 50%;
+}
+
+html {
+    font-size: 12px;
+}
+
+.mycont {
+    box-sizing: border-box;
+    margin: 23px auto;
+    border: 2px solid black;
+    color: black;
+    font-size: 22px;
+    /* width: 100vmin; */
+    width: 80vw;
+}
