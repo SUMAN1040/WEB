@@ -1,0 +1,39 @@
+.nav {
+    background-color: var(--color);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.container {
+    background-color: var(--seccolor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: var(--defpad);
+    opacity: var(--defoff);
+    border: 2px solid var(--seccolor);
+}
+
+ul {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+:root {
+    --color: rgb(119, 179, 8);
+    --seccolor: rgb(217, 8, 245);
+    --defpad: 23px;
+    --defoff: 0.3;
+
+}
+
+ul li:first-child {
+    --color: rgb(10, 4, 0);
+    background-color: var(--color);
+}
