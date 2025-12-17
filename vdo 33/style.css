@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    background-color: aqua;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 23px;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    margin: 10px;
+    font-weight: bolder;
+    border: 2px solid rgba(70, 1, 182, 0.267);
+    border-spacing: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: rgba(208, 255, 0, 0.76);
+    --secondary-color:rgba(0, 0, 255, 0.452);
+    --trtiary-color: rgb(79, 212, 79);
+}
+li:first-child{
+    background-color: var(--primary-color);
+}
+li:nth-child(2){
+    background-color: var(--secondary-color);
+}
+li:last-child{
+    background-color: var(--trtiary-color);
+}
