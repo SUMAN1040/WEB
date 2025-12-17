@@ -1,0 +1,42 @@
+/* .box:first-child {
+    background: red;
+}
+
+.box::first-letter {
+    color: yellow;
+
+}
+
+.box::first-line {
+    color: green;
+} */
+
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* .boxes * {
+    color: blue;
+    border: 2px solid black;
+}
+
+p, a, .box, [data-color = "Primary"]{
+    padding-top: 45px;
+} */
+
+/* .box:nth-child(2){
+background-color: blue;
+} */
+
+.box:nth-last-child(1){
+    background-color: red;
+}
+::selection{
+    color: blue;
+    background-color: tomato;
+}
+.text::placeholder{
+    color: red;
+    
+}
