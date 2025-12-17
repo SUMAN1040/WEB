@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+/* @media not|only mediatype and (Enpression{
+    Css-code;
+} */
+@media screen and (orientation: landscape) {
+    body {
+        border: 2px solid greenyellow;
+    }
+}
+@media screen and (orientation: portrait) {
+    body {
+        border: 2px solid purple;
+    }
+}
+
+@media only screen and (max-width:445px) {
+    body {
+        background-color: rgb(67, 255, 67);
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+.box {
+    width: 344px;
+    height: 344px;
+    background-color: steelblue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.boxes {
+    display: flex;
+}
