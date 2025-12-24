@@ -1,18 +1,27 @@
-.box{
+.box {
     background-color: white;
     width: 50px;
     height: 50px;
     border: 2px solid black;
     /* transform: rotate(45deg); */
-    /* transform: rotate(0.25turn); */
+    transform: rotate(0.125turn);
     /* transform: rotateZ(40deg); */
-    transform: scaleX(1.5);
+    /* transform: scale3d(1.5, 1.5, 1.5); */
+    /* transform: skew(5deg); */
+    /* transform: translateY(100%) skew(40deg) translateX(45%); */
+    transform-origin: 0% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     width: 100vw;
     height: 80vh;
     border: 2px solid purple;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
