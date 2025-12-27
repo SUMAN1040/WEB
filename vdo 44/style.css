@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.logo {
+    /* width: 40px;
+    height: 23px;
+    background-color: blueviolet; */
+}
+
+.logo img {
+    width: 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+    background-color: whitesmoke;
+    width: 70%;
+    margin: auto;
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.option {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option button {
+    color: black;
+    background-color: #fcb900;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    padding: 17px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search {
+    margin-left: 15px;
+}
+
+.child1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.child1 h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.child1 img {
+    width: 40px;
+}
+
+.parent span {
+    display: flex;
+    justify-content: center;
+}
+
+.parent span p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.select_button_for_different_os ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    width: 15%;
+    background-color: #ffd741;
+    padding: 15px;
+    align-items: center;
+    margin-top: 40px;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.select_button_for_different_os ul li:nth-child(3) {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.option button:hover {
+    cursor: pointer;
+    background-color: #e9bc42;
+}
+
+.select_button_for_different_os :hover {
+    cursor: pointer;
+    background-color: #fcb900;
+}
+
+.child2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.child2 p:nth-child(2) {
+    color: gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.child2 p:nth-child(3){
+    cursor: pointer;
+    color: gray;
+    margin-left: 5px;
+}
+
+
+/* grid */
