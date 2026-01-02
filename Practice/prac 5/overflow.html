@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+      div {
+        background-color: rgb(188, 176, 199);
+        width: 200px;
+        height: 80px;
+        overflow: auto;
+        border: 2px solid;
+      }
+      div::-webkit-scrollbar {
+        display: none;
+      }
+      div {
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ab
+      necessitatibus optio dignissimos quo perferendis quam at, laboriosam minus
+      nisi, enim sunt dolores ipsa. Unde doloribus ex maiores eligendi.
+      Repellendus incidunt delectus deleniti nesciunt doloribus pariatur
+      consectetur recusandae unde consequatur.
+    </div>
+  </body>
+</html>
