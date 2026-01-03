@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Positioning</title>
-    <style></style>
-  </head>
-  <body>
-    <!-- The CSS postioning property allows you to control how and where elements are
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Positioning</title>
+  <style>
+    .tag {
+      position: relative;
+      padding: 40px;
+      height: 200px;
+      border: 2px solid black;
+    }
+
+    video {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      width: 80px;
+      cursor: pointer;
+    }
+
+    h1 {
+      position: sticky;
+      top: 0px;
+      background: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The CSS postioning property allows you to control how and where elements are
     placed on a web page. Its defines whether an element should follow the
     natural flow of the document or be positioned at a specific spot using
-    coordinates like top, bottom, and left; -->
-  </body>
+    coordinates like top, right,  bottom, and left; -->
+
+  <!-- position is one of the most powerful features in css because it lets you create layouts, fixed headers, sticky navigation bars, toolips, modals, and much more. -->
+  <!-- <h1>Css Position Absolute Example</h1>
+    <div class="tag">
+      <p id="p1">This is paragraph 1</p>
+      <p id="p2">This is paragraph 2</p>
+      <video src="1.mp4"></video>
+      <p id="p3">This is paragraph 3</p>
+      <p id="p4">This is paragraph 4</p> -->
+
+
+  <!-- <h1>CodeWithHarry</h1>
+      <p>Scroll down to see the effect...</p>
+      <p style="margin-top:1000px;">End of page</p> -->
+
+  <h1>Sticky Header</h1>
+  <p>Scroll down...</p>
+  <p style="margin-top:1000px;">End of page</p>
+  <!-- </div> -->
+</body>
+
 </html>
