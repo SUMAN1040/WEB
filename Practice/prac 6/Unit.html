@@ -1,14 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        
+      .box {
+        border: 2px solid black;
+        margin: 10px;
+        display: inline-block;
+      }
+      .cm {
+        width: 3cm;
+        height: 2cm;
+        background: lightblue;
+      }
+      .mm {
+        width: 30mm;
+        height: 20mm;
+        background: lightgreen;
+      }
+      .in {
+        width: 2in;
+        height: 1in;
+        background: lightcoral;
+      }
+      .pt {
+        width: 100pt;
+        height: 50pt;
+        background: gold;
+      }
+      .px {
+        width: 200px;
+        height: 100px;
+        background: violet;
+      }
     </style>
-</head>
-<body>
-    
-</body>
+
+    <style>
+      body {
+        font-size: 16px;
+      }
+      .parent {
+        border: 2px solid black;
+        padding: 10px;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+      }
+      .em {
+        font-size: 2em;
+        background: lightblue;
+      }
+      .rem {
+        font-size: 2rem;
+        background: lightgreen;
+      }
+      .percent {
+        width: 80%;
+        height: 50px;
+        background: coral;
+      }
+      .vh {
+        height: 20vh;
+        background: gold;
+      }
+      .vw {
+        width: 50vw;
+        background: violet;
+        height: 50px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h2>CSS Absolute Units</h2>
+    <div class="box cm">3cm × 2cm</div>
+    <div class="box mm">30mm × 20mm</div>
+    <div class="box in">2in × 1in</div>
+    <div class="box pt">100pt × 50pt</div>
+    <div class="box px">200px × 100px</div>
+
+    <h2>CSS Relative Units</h2>
+    <div class="parent">
+      <p class="em">This is 2em (relative to parent font-size)</p>
+      <p class="rem">This is 2rem (relative to root font-size)</p>
+      <div class="percent">This box is 80% of parent width</div>
+      <div class="vh">This box is 20% of viewport height</div>
+      <div class="vw">This box is 50% of viewport width</div>
+    </div>
+  </body>
 </html>
