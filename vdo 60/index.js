@@ -25,4 +25,3 @@ let f_name = "     Suman";
 console.log(f_name.trim());
 
 //Strings are immutable
-
