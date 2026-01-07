@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* Defining variables */
+    :root {
+      --main-bg: lightblue;
+      --main-color: darkblue;
+      --padding: 15px;
+      --radius: 10px;
+    }
+
+    body {
+      background-color: var(--main-bg);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: var(--padding);
+    }
+
+    h1 {
+      color: var(--main-color);
+      background: white;
+      padding: var(--padding);
+      border-radius: var(--radius);
+    }
+
+    p {
+      color: var(--main-color);
+    }
+  </style>
+  <body>
+    <!-- Css variables let you store value (like colors, font sizes, margine) in one place and then through out your stylesheet. This  makes your code cleaner, easier to maintain, and more consistent -->
+
+    <h1>CSS Variables Demo</h1>
+    <p>This paragraph also uses the same variable color!</p>
+  </body>
+</html>
