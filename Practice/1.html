@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        height: 120px;
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .min-box {
+        background: teal;
+        width: min(70%, 300px);
+        /* Chooses the smaller value: either 70% of container OR 300px */
+      }
+
+      .max-box {
+        background: crimson;
+        width: max(200px, 40%);
+        /* Chooses the larger value: either 200px OR 40% of container */
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS min() vs max() Functions</h2>
+    <p>Resize the window to see how the widths behave differently.</p>
+
+    <div class="container">
+      <div class="box min-box">Width = min(70%, 300px)</div>
+      <div class="box max-box">Width = max(200px, 40%)</div>
+    </div>
+  </body>
+</html>
