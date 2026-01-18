@@ -1,11 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Contact Form</h1>
+      <p class="subheading">Please fill this text in the fields.</p>
+    </div>
+
+    <form action="">
+      <p class="emil">
+        Your Email: <br />
+        <input type="email" name="email" id="" placeholder="Enter your email" />
+      </p>
+
+      <p class="number">
+        Your mobile number: <br />
+        <input type="text" placeholder="Enter your moblie number:" />
+      </p>
+
+      <p class="massage">
+        Your massage to us: <br />
+        <textarea
+          name="massage"
+          id=""
+          cols="50"
+          rows="5"
+          placeholder="Enter your Query here"
+        ></textarea>
+      </p>
+
+      <p>
+        Select how you want updates: <br />
+        <select name="Select" id="">
+          <option value="Choose">--Please Choose one option--</option>
+          <option value="op1">Massage</option>
+          <option value="op2">Call</option>
+          <option value="op3">Email</option>
+        </select>
+      </p>
+      <input type="submit" value="Submit"> <input type="reset" value="Reset">
+    </form>
+  </body>
 </html>
