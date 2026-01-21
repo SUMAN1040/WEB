@@ -1,5 +1,5 @@
 /* flex direction */
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-direction: row-reverse;
   background-color: rgb(54, 54, 54);
@@ -9,7 +9,48 @@
   color: white;
   padding: 20px;
   margin: 5px;
-}
-
+} */
 
 /* flex Wrap */
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: yellowgreen;
+}
+.flex-container div {
+  width: 200px;
+  margin: 10px;
+  background: tomato;
+  color: white;
+  text-align: center;
+  padding: 20px;
+} */
+
+
+/* Justify content */
+/* .flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    background: yellow;
+}
+
+.flex-container div{
+    padding: 20px;
+    background: purple;
+    color: white;
+} */
+
+/* Align Items */
+.flex-container{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background: peachpuff;
+}
+
+.flex-container div{
+     background: teal;
+     color: white;
+     padding: 15px;
+     margin: 5px;
+}
