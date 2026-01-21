@@ -1,0 +1,15 @@
+/* flex direction */
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(54, 54, 54);
+}
+.flex-container div {
+  background: teal;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+
+/* flex Wrap */
