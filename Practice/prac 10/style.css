@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.icon{
+    font-weight: bold;
+    font-size: 22px;
+    color: yellow;
+    margin-right: auto;
+}
