@@ -1,7 +1,36 @@
 /* Inline Css */
-.inline-demo{
-    display: inline;
-    background-color: lightblue;
-    padding: 5px;
+.inline-demo {
+  display: inline;
+  background-color: lightblue;
+  padding: 5px;
 }
 
+/* Block CSS */
+.block {
+  display: block;
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+/* Inline-block */
+.inline-block-demo {
+  display: inline-block;
+  background-color: orange;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Display: None */
+.hidden-demo {
+  display: none;
+}
+
+/* visibility: Hidden */
+.invisible-demo {
+  visibility: hidden;
+}
