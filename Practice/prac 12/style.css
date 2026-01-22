@@ -26,7 +26,6 @@
   padding: 20px;
 } */
 
-
 /* Justify content */
 /* .flex-container{
     display: flex;
@@ -41,7 +40,7 @@
 } */
 
 /* Align Items */
-.flex-container{
+/* .flex-container{
     display: flex;
     align-items: center;
     height: 200px;
@@ -53,4 +52,66 @@
      color: white;
      padding: 15px;
      margin: 5px;
+} */
+
+/* Align Content */
+
+/* order */
+/* .flex-container {
+  display: flex;
+  background: lightblue;
+}
+.flex-container div {
+  background: teal;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+.item1 {
+  order: 3;
+}
+.item2 {
+  order: 1;
+}
+.item3 {
+  order: 2;
+} */
+
+/* Flex Grow & Shrink */
+/* .flex-container {
+  display: flex;
+  background: beige;
+}
+.flex-container div {
+  padding: 20px;
+  margin: 6px;
+  background: steelblue;
+  color: white;
+}
+.item1{
+  flex-grow: 1;
+}
+.item2{
+  flex-grow: 3;
+}
+.item3{
+  flex-grow: 1;
+} */
+
+/* Align-Self */
+.flex-container {
+  display: flex;
+  height: 200px;
+  background: lavender;
+  align-items: center;
+}
+.flex-container div {
+  background: orange;
+  color: whitesmoke;
+  padding: 20px;
+  margin: 5px;
+}
+.item2 {
+  align-self: flex-end;
 }
