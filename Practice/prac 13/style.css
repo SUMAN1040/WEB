@@ -68,5 +68,5 @@
 }
 .span-columns{
     grid-column: 1 / 3;
-    background: lightblue;
+    background: rgb(42, 199, 252);
 }
