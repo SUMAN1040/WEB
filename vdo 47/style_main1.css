@@ -1,0 +1,80 @@
+.child1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.child1 h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.child1 img {
+    width: 40px;
+}
+
+.parent span {
+    display: flex;
+    justify-content: center;
+}
+
+.parent span p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.select_button_for_different_os ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    width: 15%;
+    background-color: #ffd741;
+    padding: 15px;
+    align-items: center;
+    margin-top: 40px;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.select_button_for_different_os ul li:nth-child(3) {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.option button:hover {
+    cursor: pointer;
+    background-color: #e9bc42;
+}
+
+.select_button_for_different_os :hover {
+    cursor: pointer;
+    background-color: #fcb900;
+}
+
+.child2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.child2 p:nth-child(2) {
+    color: gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.child2 p:nth-child(3){
+    cursor: pointer;
+    color: gray;
+    margin-left: 5px;
+}

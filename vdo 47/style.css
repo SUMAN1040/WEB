@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.logo {
+    /* width: 40px;
+    height: 23px;
+    background-color: blueviolet; */
+}
+
+.logo img {
+    width: 160px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+    background-color: whitesmoke;
+    width: 70%;
+    margin: auto;
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.option {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option button {
+    color: black;
+    background-color: #fcb900;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    padding: 17px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search {
+    margin-left: 15px;
+}
