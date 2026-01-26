@@ -1,0 +1,14 @@
+.container{
+    height: 634px;
+    width: 688px;
+    border: 2px solid black;
+    /* background-color: blue; */
+    background-image: url(image.png);
+    background-position: center;
+}
+/* img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+} */
