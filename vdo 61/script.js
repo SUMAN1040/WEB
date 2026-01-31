@@ -22,7 +22,6 @@ else {
 }
 
 
-
 //Using another method
 
 // let ope = prompt("Enter operator(either + or - or * or /): ");
