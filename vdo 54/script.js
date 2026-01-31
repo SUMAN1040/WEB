@@ -16,4 +16,4 @@ if (isTrue) {
 console.log(a);
 document.title = "lulu app";
 
-document.body.style.backgroundColor = "red";
+document.body.style.backgroundColor = "green";

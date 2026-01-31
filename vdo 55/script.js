@@ -1,4 +1,4 @@
-console.log("Hey this is  tutorial 55 of javascript");
+console.log("Hey this is tutorial 55 of javascript");
 
 let a = 5;
 a = a + 5;
