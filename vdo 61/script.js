@@ -21,7 +21,6 @@ else {
   alert(`The result is ${eval(`$a ${c} $b`)}`);
 }
 
-
 //Using another method
 
 // let ope = prompt("Enter operator(either + or - or * or /): ");
