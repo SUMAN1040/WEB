@@ -81,7 +81,3 @@ const user123 ={
 
 const {nam, age, address:{city, country}} = user123;
 console.log(nam, age, city, country);
-
-console.log();
-
-
