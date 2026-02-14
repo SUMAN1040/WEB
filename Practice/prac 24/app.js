@@ -16,3 +16,51 @@
 
 //Naviage
 
+// if (navigator.userAgent.indexOf("Chrome") !== -1) {
+//     console.log("The user is using Google Chrome");
+// }
+
+// if (!navigator.onLine) {
+//     console.log("This device is currently offline");
+// }
+
+// console.log(`The user screen width is${screen.width}, and height is ${screen.heigth}`);
+// console.log(`The user screen color depth is${screen.colorDepth}`);
+// console.log(`The user screen pixel depth is${screen.pixelDepth}`);
+// console.log(`The user screen orientation is${screen.orientation.angle}`);
+// console.log(`The user screen orientation is${screen.orientation.type}`);
+// console.log(`The user screen availabe width is${screen.availWidth}`);
+// console.log(`The user screen availabe height is${screen.availHeight}`);
+
+
+// console.log(navigator.geolocation.getCurrentPosition((position) => {
+//     console.log(position);
+// }));
+
+
+
+// // Screen Object
+// console.log(`The screen resolution is ${screen.width}x${screen.height} pixels`);
+// console.log(`The screen color depth is ${screen.colorDepth} bits`);
+// console.log(`The available screen width is ${screen.availWidth} pixels and the available screen height is ${screen.availHeight} pixels`)
+
+
+
+// Document Object
+// let elements = document.getElementsByClassName("container");
+// for (let i = 0; i < elements.length; i++) {
+//     elements[i].innerHTML = "This is my new Text";
+// }
+
+// let newDiv = document.createElement("div");
+// newDiv.className = "div1";
+// document.body.appendChild(newDiv);
+
+
+
+// getElementsById()
+// let myDiv = document.getElementById("Suman");
+// myDiv.innerHTML = "Good Morning";
+
+
+//getElementsByClassName()
