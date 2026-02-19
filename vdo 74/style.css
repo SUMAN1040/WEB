@@ -1,0 +1,23 @@
+body {
+  /* background-color: black; */
+}
+
+.child {
+  background-color: aqua;
+  border: 2px solid black;
+  margin: 14px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.childContainer {
+  background-color: green;
+  margin: 14px;
+  padding: 14px;
+}
+
+.container {
+  background-color: blue;
+  margin: 14px;
+  padding: 14px;
+}
