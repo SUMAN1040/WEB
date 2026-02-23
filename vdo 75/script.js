@@ -3,6 +3,6 @@ console.log("Suman is an Engineering Student");
 
 setTimeout(() => {
     console.log("Suman is a student");
-}, 5000);
+}, 2000);
 
 console.log("The End");
