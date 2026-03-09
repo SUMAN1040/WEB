@@ -55,4 +55,3 @@ let afterDiv = document.createElement("div");
 afterDiv.textContent = "After List";
 list.after(afterDiv);
 
-
