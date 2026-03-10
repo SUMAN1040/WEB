@@ -44,9 +44,8 @@ createCard(
   850000,
   "1 week",
   "18:45",
-  "thumbnail.png"
+  "thumbnail.png",
 );
-
 
 createCard(
   "CSS Crash Course 2026 | Flexbox & Grid Explained",
@@ -54,7 +53,7 @@ createCard(
   2400000,
   "3 weeks",
   "22:10",
-  "thumbnail.png"
+  "thumbnail.png",
 );
 
 createCard(
@@ -63,5 +62,14 @@ createCard(
   3100000,
   "1 month",
   "35:50",
-  "thumbnail.png"
+  "thumbnail.png",
+);
+
+createCard(
+  "JavaScript Full Course | From Basics to Projects",
+  "CodeWithHarry",
+  3100000,
+  "1 month",
+  "35:50",
+  "thumbnail.png",
 );
