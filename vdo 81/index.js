@@ -6,6 +6,7 @@ let text = [
   "Cleaning up...",
 ];
 
+
 for (const item of text) {
   addItem(item);
 }
